@@ -1,0 +1,86 @@
+ /* estilos para o corpo da página */
+ body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* estilos para o cabeçalho */
+  h1 {
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	margin: 0;
+  }
+  
+  /* estilos para o formulário */
+  #task-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+  }
+  
+  #task-input {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	width: 300px;
+	margin-right: 10px;
+  }
+  
+  #task-input:focus {
+	outline: none;
+	border-color: #333;
+  }
+  
+  /* define estilos para um botão do tipo "submit".*/
+  button[type="submit"] {
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  /*define que quando o cursor estiver sobre o botão do tipo "submit" */
+  button[type="submit"]:hover {
+	background-color: #555;
+  }
+  
+  /* estilos para a lista de tarefas */
+  #task-list {
+	list-style: none;
+	margin: 20px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+  }
+  /* define as propriedades dos itens da lista de tarefas. */
+  #task-list li {
+	background-color: #f7f7f7;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 400px;
+  }
+  
+  /* estilos para os botões de 'editar' e 'excluir' */
+  button {
+	padding: 5px 10px;
+	background-color: #ccc;
+	color: #333;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  /* quando o cursor do mouse está sobre os botões de 'editar'e 'exluir'.  */
+  button:hover {
+	background-color: #eee;
+  }
